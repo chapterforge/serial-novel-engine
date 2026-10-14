@@ -1,0 +1,21 @@
+name: gates
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  prove-every-gate:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python: ["3.9", "3.12"]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Every gate passes good input and fails bad input
+        run: python tests/test_gates.py

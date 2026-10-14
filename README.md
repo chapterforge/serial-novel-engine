@@ -1,5 +1,6 @@
 # Serial Novel Engine
 
+[![gates](https://github.com/chapterforge/serial-novel-engine/actions/workflows/gates.yml/badge.svg)](https://github.com/chapterforge/serial-novel-engine/actions/workflows/gates.yml)
 ![license: MIT](https://img.shields.io/badge/license-MIT-blue)
 ![python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue)
 ![dependencies: none](https://img.shields.io/badge/dependencies-none-brightgreen)
