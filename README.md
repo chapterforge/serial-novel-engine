@@ -42,6 +42,8 @@ python scenecheck.py --dir ../../../examples/manuscript ch_001-002.txt
 python wc.py --dir ../../../examples/manuscript ch_001-002.txt
 ```
 
+Needs Python 3.8+. On Windows, use `py` instead of `python` if `python` opens the Microsoft Store.
+
 The example chapters are deliberately short, so the word gate fires. That's how you know it works.
 
 Then ask Claude: *"Use the serial novel engine. Help me plan a 200-chapter enemies-to-lovers

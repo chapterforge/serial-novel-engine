@@ -50,7 +50,10 @@ Read `references/craft-laws.md` before planning a new book. Read
   checked against the plan before they go on the page.
 
 ### Stage C: gates, after every batch
-Run these against the manuscript folder (default `./manuscript`, override with `--dir`):
+Run these against the manuscript folder (default `./manuscript`, override with `--dir`).
+The scripts live in this skill's `scripts/` folder; call them by that full path. They need
+Python 3.8+ and nothing else. **On Windows, if `python` says "not found" or opens the
+Microsoft Store, use `py` instead.**
 
 ```bash
 python scripts/wc.py ch_041-044.txt          # word count per chapter + gap to band
