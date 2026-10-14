@@ -1,0 +1,13 @@
+{
+  "name": "serial-novel-engine",
+  "owner": {
+    "name": "chapterforge"
+  },
+  "plugins": [
+    {
+      "name": "serial-novel-engine",
+      "source": "./",
+      "description": "Plan, draft and gate long serial novels with Claude: blueprint first, two-scene chapters, a cliff on every chapter, and gate scripts."
+    }
+  ]
+}

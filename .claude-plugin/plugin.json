@@ -1,0 +1,12 @@
+{
+  "name": "serial-novel-engine",
+  "description": "Plan, draft and gate long serial novels (webnovel / Kindle Vella / Royal Road style) with Claude: whole-book blueprint first, two-scene chapters, a cliff on every chapter, and scripts that check word band, scene-vs-essay balance and cliché density.",
+  "version": "1.0.0",
+  "author": {
+    "name": "chapterforge"
+  },
+  "homepage": "https://github.com/chapterforge/serial-novel-engine",
+  "repository": "https://github.com/chapterforge/serial-novel-engine",
+  "license": "MIT",
+  "keywords": ["fiction", "novel", "webnovel", "serial", "writing", "romance", "skills"]
+}
