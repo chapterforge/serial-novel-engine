@@ -59,10 +59,12 @@ chapter book consistent:
 - **continuity/fact checker** (ages, places, dates, drift warnings, lonely proper nouns)
 - **row check** (did the draft do what the plan said?)
 - **cliff ladder** and **act-end audit sweeps**
-- one-command **new-book setup** and **.docx export**
-- the full rulebook: 48 laws, each with the failure that produced it
+- one-command **new-book setup**, a **batch gate** that runs every check in one go, and **.docx export**
+- a test suite that proves every gate can fail, and a complete 10-chapter **sample book** that passes them all
+- the full rulebook: 59 laws, each with the failure that produced it
 
-→ **[Get Pro](YOUR_STORE_LINK)**
+→ **[Get Pro ($29)](https://chapterforgestudio.gumroad.com/l/paagmk)**: one zip, Claude Code plugin and
+Claude.ai skills, free updates for v1.x, 14-day refund.
 
 ## License
 
