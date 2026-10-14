@@ -17,9 +17,13 @@ Each law came out of something that went wrong in a finished 200–360 chapter s
 ## Curiosity
 6. **Every chapter opens or sharpens a question the reader is dying to know.** That's a
    feeling you put in the reader, not a question a character says out loud.
-7. **Every question you open is a debt.** Touch it every few chapters until you pay it.
-   Carrying too many at once (more than about ten) is what readers call "dragging".
-   Pay old threads off before opening new ones.
+7. **Every question you open is a debt.** Touch every open question at least once every
+   **five** chapters until you pay it; a thread left longer goes cold while the reader is still
+   holding it. Never carry more than **ten** open at once: at about two touches a chapter, ten
+   is all you can service, and the overflow is what readers call "dragging". Pay old threads
+   off before opening new ones, and open **no more than eight** in the first twenty chapters.
+   Up to four "spine" questions (the premise secret, the romance, the main stake, the big
+   lore payoff) may run the whole book, but they still count toward the ten.
 8. **Tell someone a secret exists without telling them the secret.**
 
 ## Character

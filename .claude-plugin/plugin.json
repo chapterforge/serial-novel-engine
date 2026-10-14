@@ -1,7 +1,7 @@
 {
   "name": "serial-novel-engine",
   "description": "Plan, draft and gate long serial novels (webnovel / Kindle Vella / Royal Road style) with Claude: whole-book blueprint first, two-scene chapters, a cliff on every chapter, and scripts that check word band, scene-vs-essay balance and cliché density.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "chapterforge"
   },
