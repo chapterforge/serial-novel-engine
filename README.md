@@ -17,6 +17,35 @@ Built while finishing a run of 200-360 chapter web serials. Every rule here exis
 
 ---
 
+## Why AI-written serials drift, and what stops it
+
+Anyone who has written a long book with an AI knows the pattern. The first 30 chapters are fine. Then names
+change, a character's age moves, a mystery from chapter 12 is never mentioned again, chapters turn into
+summary, and when you type "continue" the AI invents a new arc. Readers call it "dragging" and leave.
+
+**The cause is structural, not the model's prose.** The AI only sees part of the book at a time, nothing
+holds it to a plan, and nothing checks its work against what's already written. Better prompts can't fix
+that. A plan written down before Chapter 1 and checks that run after every batch can, because they don't
+forget.
+
+| What goes wrong | Why it happens | What stops it | Edition |
+|---|---|---|---|
+| "Continue" invents a new arc; the middle sags; the premise lands too late | there is no plan past the next chapter | **The whole book planned before Chapter 1**: one row per chapter with its date, beat, cliffhanger and reader question. Claude drafts *from* the plan and stops when a row is missing | method: Free · enforced by a script: **Pro** |
+| Chapters turn into summary ("nothing happens") | summary is easier to generate than scene | **Scene gate**: under 20% dialogue = essay; never two in a row | **Free** |
+| Chapters get shorter and shorter, or bloat | no length target per chapter | **Word band**, with the exact gap to close | **Free** |
+| The same AI phrases everywhere (*a testament to*, *palpable*, em-dashes) | model habits pile up across chapters | **Cliché check**, with an automatic em-dash fix | **Free** |
+| Mysteries raised and forgotten; too many threads; "it drags" | nobody counts the open questions | **The debt rule**: every open reader question tracked; at most 10 open, none silent for 5+ chapters | rule explained: Free · checked on the whole outline: **Pro** |
+| Names, ages, places and dates change between chapters | the AI can't see chapter 40 while writing chapter 140 | **Continuity checks**: every fact you fix once becomes a rule; drifting values and one-off names are flagged | **Pro** |
+| The chapter doesn't do what the plan said (reveal in the wrong chapter, missing cliffhanger) | the draft is never compared with the plan | **Plan reconciliation**: each chapter is checked against its outline row | **Pro** |
+| Whole-book problems no single chapter shows: wrong weekdays, duplicate titles, 50% summary chapters | batch checks only see the batch | **Whole-book audit sweeps** at every act end | **Pro** |
+| A spell-clean book is sent back for "poor editing": speech in italics, missing tag commas, a beat told twice, straight quotes and `*` in the upload file | habits a spellchecker can't see, late edits nobody re-reads, and built files nobody opens | **Proof, collision and output gates**: dialogue by English norms, restated beats, and the upload files themselves checked | **Pro** |
+| Characters' voices blur together | voice isn't written down anywhere | **Voice fingerprint, reader avatar and critique rubric** templates to fill per book. (No script can judge voice; these make it something you can check.) | **Pro** |
+
+The scripts check any manuscript in the plain-text format, whichever AI (or human) wrote it. The skill that
+plans and drafts with you is for Claude.
+
+---
+
 ## Try it in 30 seconds
 
 No install, no dependencies, just Python 3.8+.
@@ -128,8 +157,9 @@ The free edition covers the drafting loop. **Pro** keeps a 200+ chapter book con
 | **Plan reconciliation:** did the chapter end on the cliff its row planned? | | ✓ |
 | **Continuity:** fixed facts, drifting ages, banned claims, lonely names | | ✓ |
 | **Whole-book audits:** calendar, duplicate titles, threads, pacing drag | | ✓ |
+| **Speech and upload checks:** dialogue by English norms, beats told twice, names reused across your books, typeset files checked after the build | | ✓ |
 | Batch gate (all checks in one command), new-book setup, .docx export | | ✓ |
-| 59-law rulebook, 10-chapter sample book, 59-check test suite, step-by-step guide | | ✓ |
+| 63-law rulebook, 10-chapter sample book, 84-check test suite, step-by-step guide | | ✓ |
 
 → **[Get Pro ($29)](https://chapterforgestudio.gumroad.com/l/paagmk)**: Claude Code plugin and Claude.ai
 skills, free updates for v1.x, 14-day refund.
